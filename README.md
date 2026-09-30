@@ -1,4 +1,4 @@
-Full Report: Sign_Language_Time_Series_Analysis_AI-Hub_2026
+Full Report: Sign_Language_Time_Series_Analysis_AI-Hub_2026.pdf
 
 Download full REPORT and code and data: https://drive.google.com/drive/folders/1mkrcqbuRQQ2G0qsNYoSnPmmXH3ZWFcSR?usp=sharing
 
