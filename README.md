@@ -59,8 +59,8 @@ Repository structure
 1. Installation
 Tested with Python 3.11, PyTorch with CUDA, on Linux and Windows.
 ```bash
-conda create -n thesis python=3.11 -y
-conda activate thesis
+conda create -n project python=3.11 -y
+conda activate project
 pip install torch numpy pyyaml tqdm scipy scikit-learn einops matplotlib
 ```
 The code imports modules as `src.…`, so the repository root must be on `PYTHONPATH`:
@@ -134,7 +134,7 @@ Encoders are saved to `outputs/<subset>/<metric>_r/dist_encoder.pt`.
 > out of RAM. On an RTX 4090 with 62 GB RAM, triplet generation took about 4 min (L2),
 > 3 h (Procrustes) and 16.5 h (Quat). Run long jobs inside `tmux` or `screen`.
 ---
-5. Stage 1b — Proxy Anchor encoder (this thesis)
+5. Stage 1b — Proxy Anchor encoder 
 ```bash
 python experiment_B_proxy_anchor_pretrain.py \
     --data_dir data/WLASL_npy_dataset_2000_split \
@@ -221,7 +221,7 @@ Proc + L2 + APD + Proxy (weighted)	77.1	64.8	36.1
 Proc + L2 + APD + Proxy (concat)	77.5	63.3	35.5
 On WLASL-2000, adding Proxy Anchor to the geometric fusion leaves Top-1 essentially
 unchanged but improves Top-5 from 66.9 to 69.5 and Top-10 from 76.8 to 78.8.
-Full tables are in the thesis.
+Full tables are in the report.
 Caveat: all numbers come from a single run per configuration, so differences of about
 1–2 points are within run-to-run variance.
 ---
