@@ -6,8 +6,10 @@
 **Proxy Anchor pretraining for geometry-aware, skeleton-based isolated sign language recognition**
 
 
-Author: Spyridon Bantis 
+Author: Spyridon Bantis
+
 Overview
+
 This repository extends the geometry-aware recognition framework of in which a lightweight hand-pose
 Distance Encoder is pretrained and then fused with raw skeletal features inside a
 Transformer classifier.
