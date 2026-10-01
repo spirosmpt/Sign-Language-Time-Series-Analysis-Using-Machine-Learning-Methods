@@ -3,12 +3,13 @@
 **Download full REPORT and code and data: https://drive.google.com/drive/folders/1mkrcqbuRQQ2G0qsNYoSnPmmXH3ZWFcSR?usp=sharing**
 
 **Sign Language Time Series Analysis Using Machine Learning Methods**
+
 **Proxy Anchor pretraining for geometry-aware, skeleton-based isolated sign language recognition**
 
 
 Author: Spyridon Bantis
 
-Overview
+**Overview**
 
 This repository extends the geometry-aware recognition framework of in which a lightweight hand-pose
 Distance Encoder is pretrained and then fused with raw skeletal features inside a
