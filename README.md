@@ -1,19 +1,19 @@
-Full Report: [Report](Sign_Language_Time_Series_Analysis_AI-Hub_2026.pdf)
+**Full Report: [Report](Sign_Language_Time_Series_Analysis_AI-Hub_2026.pdf)**
 
-Download full REPORT and code and data: https://drive.google.com/drive/folders/1mkrcqbuRQQ2G0qsNYoSnPmmXH3ZWFcSR?usp=sharing
+**Download full REPORT and code and data: https://drive.google.com/drive/folders/1mkrcqbuRQQ2G0qsNYoSnPmmXH3ZWFcSR?usp=sharing**
 
-Sign Language Time Series Analysis Using Machine Learning Methods
-Proxy Anchor pretraining for geometry-aware, skeleton-based isolated sign language recognition
+**Sign Language Time Series Analysis Using Machine Learning Methods**
+**Proxy Anchor pretraining for geometry-aware, skeleton-based isolated sign language recognition**
+
 
 Author: Spyridon Bantis 
 Overview
-This repository extends the geometry-aware recognition framework of
-Sartinas et al. (VISAPP 2026), in which a lightweight hand-pose
+This repository extends the geometry-aware recognition framework of in which a lightweight hand-pose
 Distance Encoder is pretrained and then fused with raw skeletal features inside a
 Transformer classifier.
 In the original framework the encoder is pretrained with a self-supervised triplet loss
 driven by geometric distances (Euclidean, Procrustes, Articulated Pose Distance).
-This thesis replaces it with the supervised Proxy Anchor Loss (Kim et al., CVPR 2020),
+This project replaces it with the supervised Proxy Anchor Loss (Kim et al., CVPR 2020),
 so that the encoder learns from sign class labels directly, and systematically evaluates
 the resulting encoder alone and fused with the geometric encoders.
 ```
