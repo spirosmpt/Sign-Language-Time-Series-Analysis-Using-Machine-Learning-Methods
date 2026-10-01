@@ -35,9 +35,9 @@ Repository structure
 ```
 .
 ├── config.yaml                          # dataset paths and pretraining settings
-├── experiment_B_proxy_anchor_pretrain.py  # Proxy Anchor encoder pretraining (this thesis)
-├── experiment_C_hyperformer_wlasl.py      # Hyperformer adaptation for WLASL (this thesis)
-├── demo_v2.py                           # qualitative demonstration tool (this thesis)
+├── experiment_B_proxy_anchor_pretrain.py  # Proxy Anchor encoder pretraining 
+├── experiment_C_hyperformer_wlasl.py      # Hyperformer adaptation for WLASL 
+├── demo_v2.py                           # qualitative demonstration tool 
 ├── src/
 │   ├── pretraining/
 │   │   ├── 1_distance_to_triplets.py    # geometric distances → triplets
@@ -71,7 +71,7 @@ $env:PYTHONPATH = (Get-Location).Path
 Run every command below from the repository root.
 ---
 2. Data
-The WLASL data are not included in this repository. WLASL videos are available from the
+The WLASL data are not included in this repository. WLASL videos are available in the google drive above or from the
 official WLASL project under its own license.
 Skeletons are extracted with MediaPipe Holistic and stored as NumPy arrays:
 Item	Shape	Description
