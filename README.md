@@ -38,8 +38,7 @@ Repository structure
 ```
 .
 ├── config.yaml                          # dataset paths and pretraining settings
-├── experiment_B_proxy_anchor_pretrain.py  # Proxy Anchor encoder pretraining 
-├── experiment_C_hyperformer_wlasl.py      # Hyperformer adaptation for WLASL 
+├── experiment_B_proxy_anchor_pretrain.py  # Proxy Anchor encoder pretraining  
 ├── demo_v2.py                           # qualitative demonstration tool 
 ├── src/
 │   ├── pretraining/
